@@ -1,4 +1,3 @@
-from django.shortcuts import render
 from django.contrib.auth.models import User, Group
 from django.contrib.gis.geos import Point
 from django.contrib.gis.measure import Distance
@@ -9,31 +8,7 @@ from bike_api.serializers import UserSerializer, GroupSerializer
 # from django.shortcuts import render
 from django.conf import settings
 # from django.core.validators import validate_email
-from django.core.exceptions import ValidationError
-from django.db.models import (
-    Count,
-    Q,
-    When,
-    Case,
-    F,
-    CharField,
-    BooleanField,
-    Sum,
-    Max,
-    Min,
-    Value as V
-)
-from django.db.models.functions import Coalesce
-from django.db.models.expressions import RawSQL
-from django.utils.decorators import method_decorator
-from django.utils.html import escape
-from django.utils.dateformat import DateFormat
-from django.views.generic import View
-from django.views.decorators.csrf import csrf_exempt
-from django.http import JsonResponse
 from rest_framework import viewsets
-from rest_framework.views import APIView
-from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.generics import (
     RetrieveUpdateDestroyAPIView,
@@ -41,13 +16,6 @@ from rest_framework.generics import (
     ListCreateAPIView,
     RetrieveAPIView,
     GenericAPIView
-)
-from rest_framework.mixins import (
-    ListModelMixin,
-    CreateModelMixin,
-    RetrieveModelMixin,
-    UpdateModelMixin,
-    DestroyModelMixin
 )
 from rest_framework.parsers import JSONParser
 from rest_framework.renderers import JSONRenderer
@@ -58,15 +26,8 @@ from bike_api.models import (
     Location,
     Zone
 )
-import arrow
 import binascii
-import base64
-import datetime
-import hmac
-import hashlib
-from itertools import groupby
 import json
-import math
 
 
 class UserViewSet(viewsets.ModelViewSet):
