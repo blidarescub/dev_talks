@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MIHSAR-PC</Machine>
+    <WindowsUser>mihsar</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec4853d3-a754-4ca5-accd-8a161bd72638</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Bin\Debug\SmartBike.dll">
+      <PackagePath>SmartBike.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\AppBar\landmarks.png">
+      <PackagePath>Assets\AppBar\landmarks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\AppBar\location.png">
+      <PackagePath>Assets\AppBar\location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\AppBar\zoomin.png">
+      <PackagePath>Assets\AppBar\zoomin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\AppBar\zoomout.png">
+      <PackagePath>Assets\AppBar\zoomout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\sbike_small.png">
+      <PackagePath>Assets\sbike_small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\SplashScreenImage.jpg">
+      <PackagePath>SplashScreenImage.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\SplashScreenImage.Screen-720p.jpg">
+      <PackagePath>SplashScreenImage.Screen-720p.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\SplashScreenImage.Screen-WVGA.jpg">
+      <PackagePath>SplashScreenImage.Screen-WVGA.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\SplashScreenImage.Screen-WXGA.jpg">
+      <PackagePath>SplashScreenImage.Screen-WXGA.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Desktop\BingMapsExample\sdkMapControlWP8CS\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

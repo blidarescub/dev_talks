@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MIHSAR-PC</Machine>
+    <WindowsUser>mihsar</WindowsUser>
+    <TargetPlatformIdentifier>Windows Phone</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ec4853d3-a754-4ca5-accd-8a161bd72638</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Bin\Debug\SmartBike.dll">
+      <PackagePath>SmartBike.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\AlignmentGrid.png">
+      <PackagePath>Assets\AlignmentGrid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\AppBar\landmarks.png">
+      <PackagePath>Assets\AppBar\landmarks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\AppBar\location.png">
+      <PackagePath>Assets\AppBar\location.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\AppBar\zoomin.png">
+      <PackagePath>Assets\AppBar\zoomin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\AppBar\zoomout.png">
+      <PackagePath>Assets\AppBar\zoomout.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\BadgeLogo.png">
+      <PackagePath>Assets\BadgeLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\sbike_small.png">
+      <PackagePath>Assets\sbike_small.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\SquareTile150x150.png">
+      <PackagePath>Assets\SquareTile150x150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\SquareTile71x71.png">
+      <PackagePath>Assets\SquareTile71x71.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\Tiles\FlipCycleTileLarge.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\Tiles\FlipCycleTileMedium.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileMedium.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\Tiles\FlipCycleTileSmall.png">
+      <PackagePath>Assets\Tiles\FlipCycleTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\Tiles\IconicTileMediumLarge.png">
+      <PackagePath>Assets\Tiles\IconicTileMediumLarge.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\Tiles\IconicTileSmall.png">
+      <PackagePath>Assets\Tiles\IconicTileSmall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\SplashScreenImage.jpg">
+      <PackagePath>SplashScreenImage.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\SplashScreenImage.Screen-720p.jpg">
+      <PackagePath>SplashScreenImage.Screen-720p.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\SplashScreenImage.Screen-WVGA.jpg">
+      <PackagePath>SplashScreenImage.Screen-WVGA.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\SplashScreenImage.Screen-WXGA.jpg">
+      <PackagePath>SplashScreenImage.Screen-WXGA.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\Bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\mihsar\Documents\Visual Studio 2015\Projects\DevHacks_SmartBike\SmartBike\SmartBike.csproj;neutral
